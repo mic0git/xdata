@@ -9,7 +9,8 @@
 #ifndef CompositeData_hpp
 #define CompositeData_hpp
 
-class CompositeData : public BaseData
+template<class ValueType>
+class CompositeData : public BaseData<ValueType>
 {
     // TODO:
 };

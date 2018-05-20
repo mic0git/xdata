@@ -11,7 +11,8 @@
 
 #include "BaseData.h"
 
-class NumericData : public BaseData
+template<class ValueType>
+class NumericData : public BaseData<ValueType>
 {
     // TODO:
 };

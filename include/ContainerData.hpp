@@ -9,7 +9,8 @@
 #ifndef ContainerData_hpp
 #define ContainerData_hpp
 
-class ContainerData : public BaseData
+template<class ValueType>
+class ContainerData : public BaseData<ValueType>
 {
     // TODO:
 };

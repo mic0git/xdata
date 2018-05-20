@@ -1,10 +1,10 @@
-# C++ sdk
+## C++ sdk
 
 # XData
 
 XData定义了多元的数据集合操作，一般用作基础库接口的复杂数据参数类型，方便统一抽象接口，如
 ```
-	int foo(const XData& inData, XData& outData);
+int foo(const XData& inData, XData& outData);
 ```
 
 ## 数据类型

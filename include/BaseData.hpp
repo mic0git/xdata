@@ -11,10 +11,14 @@
 
 #include "IData.hpp"
 
-class BaseData : public IData
+template<class ValueType>
+class BaseData : public IData<ValueType>
 {
     // TODO:
     
+protected:
+	DataType m_dataType;
+	std::string m_name;
 };
 
 #endif /* BaseData_hpp */

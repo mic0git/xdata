@@ -9,6 +9,7 @@
 #ifndef KeyType_h
 #define KeyType_h
 
+// KeyType支持整型和字符串型
 class KeyType
 {
 public:
